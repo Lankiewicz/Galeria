@@ -18,7 +18,7 @@ var moviesElements = movies.map(function(movie) {
 			React.createElement(MovieTitle, {title:movie.title}),
 			React.createElement(MovieDescription, {desc:movie.desc}),
 			React.createElement(MovieDescription, {desc:movie.bohaters}),
-			React.createElement('img', {src: movie.images})
+			React.createElement(MovieDescription, {desc:movie.images})
 		);
 	});
 var element =

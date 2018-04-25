@@ -5,5 +5,6 @@ var MovieDescription = React.createClass ( {
 	render: function () {
 		return React.createElement('p', {},this.props.desc);
 		React.createElement('p', {},this.props.bohaters);
+		React.createElement('img', {},this.props.images);
 }});
 
